@@ -1,0 +1,59 @@
+{
+  "_from": "react-native-idfa@^1.1.1",
+  "_id": "react-native-idfa@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-0qbKUzJUBu+J10OtQlTPQmMzYRpDRB67/pKdRZqOhLhNsCnDgNS82xgqYn2Y4nk9dnoAuPPFI47GZ15/qaxsUw==",
+  "_location": "/react-native-idfa",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-idfa@^1.1.1",
+    "name": "react-native-idfa",
+    "escapedName": "@ptomasroos%2freact-native-idfa",
+    "scope": "@ptomasroos",
+    "rawSpec": "^1.1.1",
+    "saveSpec": null,
+    "fetchSpec": "^1.1.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-idfa/-/react-native-idfa-1.1.1.tgz",
+  "_shasum": "e41ec352f86776c85f3a9d95f6b791e2ac4f108a",
+  "_spec": "react-native-idfa@^1.1.1",
+  "_where": "/Users/files/wawa/wawa_player/wawa",
+  "author": {
+    "name": "Tomas Roos",
+    "email": "ptomasroos@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/ptomasroos/react-native-idfa/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Android and iOS module to read IDFA",
+  "homepage": "https://github.com/ptomasroos/react-native-idfa#readme",
+  "keywords": [
+    "react-native-idfa",
+    "react-component",
+    "react-components",
+    "react",
+    "native",
+    "idfa",
+    "advertisingIdentifier",
+    "react-native",
+    "component",
+    "ios",
+    "android"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-idfa",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ptomasroos/react-native-idfa.git"
+  },
+  "version": "1.1.1"
+}
