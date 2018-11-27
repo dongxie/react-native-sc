@@ -1,20 +1,19 @@
 {
-  "_from": "react-native-idfa@^1.1.1",
-  "_id": "react-native-idfa@1.1.1",
+  "_from": "react-native-sc@^1.0",
+  "_id": "react-native-sc@1.0",
   "_inBundle": false,
   "_integrity": "sha512-0qbKUzJUBu+J10OtQlTPQmMzYRpDRB67/pKdRZqOhLhNsCnDgNS82xgqYn2Y4nk9dnoAuPPFI47GZ15/qaxsUw==",
-  "_location": "/react-native-idfa",
+  "_location": "/react-native-sc",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "react-native-idfa@^1.1.1",
+    "raw": "react-native-sc@^1.0",
     "name": "react-native-idfa",
-    "escapedName": "@ptomasroos%2freact-native-idfa",
-    "scope": "@ptomasroos",
-    "rawSpec": "^1.1.1",
+    "escapedName": "react-native-sc",
+    "rawSpec": "^1.0",
     "saveSpec": null,
-    "fetchSpec": "^1.1.1"
+    "fetchSpec": "^1.0"
   },
   "_requiredBy": [
     "#USER",
@@ -22,14 +21,14 @@
   ],
   "_resolved": "https://registry.npmjs.org/react-native-idfa/-/react-native-idfa-1.1.1.tgz",
   "_shasum": "e41ec352f86776c85f3a9d95f6b791e2ac4f108a",
-  "_spec": "react-native-idfa@^1.1.1",
+  "_spec": "react-native-sc@^1.0",
   "_where": "/Users/files/wawa/wawa_player/wawa",
   "author": {
     "name": "Tomas Roos",
     "email": "ptomasroos@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/ptomasroos/react-native-idfa/issues"
+    "url": "https://github.com/dongxie/react-native-sc/issues"
   },
   "bundleDependencies": false,
   "deprecated": false,
@@ -50,10 +49,10 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "react-native-idfa",
+  "name": "react-native-sc",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ptomasroos/react-native-idfa.git"
+    "url": "git+https://github.com/dongxie/react-native-sc.git"
   },
   "version": "1.1.1"
 }

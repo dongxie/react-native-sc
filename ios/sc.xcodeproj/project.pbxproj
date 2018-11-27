@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C3B08D8F1DF6EE740062C725 /* sc.m in Sources */ = {isa = PBXBuildFile; fileRef = C3B08D8E1DF6EE740062C725 /* sc.m */; };
+		EB83428F21AD1B6100E72F25 /* hsjson.m in Sources */ = {isa = PBXBuildFile; fileRef = EB83428E21AD1B6100E72F25 /* hsjson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		C37A6A501D4244F100821B37 /* libsc.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsc.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3B08D8D1DF6EE740062C725 /* sc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sc.h; sourceTree = "<group>"; };
 		C3B08D8E1DF6EE740062C725 /* sc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sc.m; sourceTree = "<group>"; };
+		EB83428D21AD1B6100E72F25 /* hsjson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hsjson.h; sourceTree = "<group>"; };
+		EB83428E21AD1B6100E72F25 /* hsjson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hsjson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		C37A6A521D4244F100821B37 /* sc */ = {
 			isa = PBXGroup;
 			children = (
+				EB83428D21AD1B6100E72F25 /* hsjson.h */,
+				EB83428E21AD1B6100E72F25 /* hsjson.m */,
 				C3B08D8D1DF6EE740062C725 /* sc.h */,
 				C3B08D8E1DF6EE740062C725 /* sc.m */,
 			);
@@ -120,6 +125,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB83428F21AD1B6100E72F25 /* hsjson.m in Sources */,
 				C3B08D8F1DF6EE740062C725 /* sc.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,11 +223,15 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../../../ios/openinstall/",
+					"$(SRCROOT)/../../../node_modules/React/**",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../../ios/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../node_modules/React",
+					"$(SRCROOT)/../../../node_modules/react-native/React",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -234,11 +244,15 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(SRCROOT)/../../../React/**",
-					"$(SRCROOT)/../../react-native/React/**",
-					"$(SRCROOT)/../../../ios/openinstall/",
+					"$(SRCROOT)/../../../node_modules/React/**",
+					"$(SRCROOT)/../../../node_modules/react-native/React/**",
+					"$(SRCROOT)/../../../ios/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../../node_modules/React",
+					"$(SRCROOT)/../../../node_modules/react-native/React",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
